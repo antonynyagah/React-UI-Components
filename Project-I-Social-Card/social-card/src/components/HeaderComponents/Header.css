@@ -1,1 +1,44 @@
 /* All styles for your header Components live here */
+.Header-container {
+    display: flex;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    max-width: 85%;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.head {
+    /* border: 10px solid black;s */
+    width: 85%;
+    margin-left: 100px;
+}
+
+.head-title {
+    display: flex; 
+    align-items: baseline;
+
+}
+
+h2 {
+    padding-right: 10px;
+    margin-bottom: 0;
+}
+
+a {
+    padding-right: 10px;
+    color: #d3d3d3;
+}
+
+.head-title p {
+    color: #d3d3d3;
+}
+
+.head-content p {
+    margin-top: 3px;
+}
